@@ -273,4 +273,4 @@ client.on('ready', () => {
     console.log(`Logged in as ${client.user.tag}!`);
 });
 
-client.login(process.env.token);
+client.login(process.env.BOTTOKEN);
